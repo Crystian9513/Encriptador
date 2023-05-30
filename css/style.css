@@ -1,0 +1,68 @@
+*{
+    background:#F3F5FC;
+    font-family: 'Courier New';
+    color: rgb(53, 53, 156);
+    font-size: 25px;
+}
+
+.informacion {
+    color: #495057;
+    font-size:20px;
+}
+
+.textarea{
+    height: 150px;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    font-size:25px;
+    text-transform: lowercase;
+}
+
+::placeholder { 
+    color:blue;
+    font-family: 'Inter';
+    font-size: 25px;
+ } 
+
+ .mensaje{
+    background-image: url("../img/principal.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+
+.btn-desencriptar {
+    font-size:20px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 55px;
+    width: 300px;
+}
+
+.btn-encriptar {
+    font-size:20px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    height: 55px;
+    width: 300px;
+}
+
+.copiar {
+    font-size:20px;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+    height: 55px;
+    width: 300px;
+    
+}
+
